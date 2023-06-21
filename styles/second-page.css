@@ -1,0 +1,51 @@
+@import url("./Common/reset.css");
+@import url("./Common/global.css");
+@import url("./Common/header.css");
+@import url("./Common/block-info.css");
+@import url("./Common/blog.css");
+@import url("./Common/articles.css");
+@import url("./Common/footer.css");
+
+
+.blog-info__container {
+  width: 100%;
+  max-width: 100%;
+}
+.container-picture {
+  min-height: auto;
+  margin-top: 52px;
+  margin-bottom: 44px;
+}
+
+.blog-info__text {
+  max-width: 53.375rem;
+  margin: 0 auto;
+  width: 100%;
+}
+.blog-info__title {
+  margin-top: 52px;
+  margin-bottom: 32px;
+}
+
+.blog-info__subtitle {
+  max-width: 626px;
+}
+.articles-conteiner {
+  max-width: 57.5rem !important;
+  min-height: auto;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+  border-top: 0;
+}
+.articles__grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 10px;
+}
+
+@media (max-width:500px){
+  .articles__title{
+    font-size: 33px;
+  }
+}
+  

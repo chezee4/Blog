@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../font-style/SF-Pro-Text-Bold.otf') format('opentype');
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: 'SF Pro Text';
+    src: url('../font-style/SF-Pro-Text-Medium.otf') format('opentype');
+    font-weight: 500;
+  }
+  
+  @font-face {
+    font-family: 'SF Pro Text';
+    src: url('../font-style/SF-Pro-Text-Regular.otf') format('opentype');
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: 'SF Pro Text';
+    src: url('../font-style/SF-Pro-Text-Heavy.otf') format('opentype');
+    font-weight: 900;
+  }
+  @font-face {
+    font-family: 'SF Pro Display';
+    src: url('../font-style/SFPRODISPLAYMEDIUM.OTF') format('opentype');
+    font-weight: 500;
+  }
+  
+  @font-face {
+    font-family: 'SF Pro Display';
+    src: url('../font-style/SFPRODISPLAYBOLD.OTF') format('opentype');
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: 'New York';
+    src: url('../font-style/NewYorkSmall-Medium.woff') format('woff');
+    font-weight: 500;
+  }
+  
+  @font-face {
+    font-family: 'New York';
+    src: url('../font-style/NewYorkSmall-Regular.woff') format('woff');
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: 'New York';
+    src: url('../font-style/NewYorkExtraLarge-Semibold.woff') format('woff');
+    font-weight: 600;
+  }
+  
+  @font-face {
+    font-family: 'New York';
+    src: url('../font-style/NewYorkMedium-Regular.woff') format('woff');
+    font-weight: normal;
+  }
+  
