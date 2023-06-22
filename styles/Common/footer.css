@@ -12,9 +12,7 @@
     overflow: hidden;
   }
   .footer__container{
-    padding-left:20px;
-    padding-right:20px;
-
+    margin-top: 100px;
   }
   .run-text__container{
     display: flex;
@@ -47,8 +45,7 @@
   .footer__container-logo {
     max-width: 18.125rem;
     max-height:1.6875rem;
-    margin-top: 105px;
-    margin-bottom: 26px;
+    margin-bottom: 25px;
   } 
   .logo { 
     width: 100%;
@@ -87,30 +84,26 @@
   }
 
   .footer__company-info{
+    max-width: 11.125rem;
     font-size: 12px;
-    margin-top: 64px;
+    margin-top: 65px;
     line-height: 140%;
 
   }
 
-  @media (max-width:320px){
+  @media (max-width:480px){
        
     .footer__container-logo {
         max-width: 14.75rem;
         max-height:1.375rem;
-        margin-top: 105px;
-        margin-bottom: 26px;
+        margin-bottom: 25px;
       } 
     .footer__text{
-        font-size: 13px;
-        max-width: 17.9375rem;
+        max-width: 21rem;
         text-align: center;
     }
     .run-text__container{
-        width:1190%;
-        animation: run-text 20s linear infinite; 
-       }
-    .footer__list{
-        font-size: 13px;
+      width: 790%;
+      animation: run-text 15s linear infinite;
     }
   }

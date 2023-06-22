@@ -18,7 +18,7 @@
           <nav class="header__menu menu">
             <ul class="menu__list">
               <li class="menu__item">
-                <a href="#" class="menu__link">Blog</a>
+                <a href="index.html" class="menu__link">Blog</a>
               </li>
               <li class="menu__item">
                 <a href="#" class="menu__link">About</a>
@@ -49,7 +49,7 @@
                 options?
               </p>
             </div>
-            <div class="container-picture container">
+            <div class="container-picture">
               <img
                 src="./img/image blog/blog-info.jpg"
                 alt="blog-info"
@@ -58,9 +58,10 @@
             </div>
           </div>
         </section>
-        <section class="main__blog-message">
-              <div class="massege__comments wd-margin">
-                <div class="massege__user wd-margin">
+        <section class="main__blog-message blog-message">
+             <article class="blog-messenge__container">
+              <div class="massege__comments ">
+                <div class="massege__user ">
                   <div class="avatar__container">
                     <img
                       src="./img/image blog/avatar/Mika.svg"
@@ -68,11 +69,12 @@
                       srcset=""
                     />
                   </div>
-                  <div class="massege__info">
-                    <img src="./img/image blog/info.png" alt="info" srcset="" />
+                  <div class="message__info">
+                    <span class="message__user-full-name">Mika Matikainen</span>
+                    <span class="message__date" >Apr 15, 2020 · 4 min read</span>
                   </div>
                 </div>
-                <button class="massege__link --btn">
+                <button class="message__link --btn">
                   <a href="#" class="link__facebook">
                     <img
                       src="./img/massege/facebook.svg"
@@ -91,7 +93,8 @@
                   </a>
                 </button>
               </div>
-              <div class="block-message__text wd-margin">
+              <div class="article__text-container">
+              <div class="block-message__text">
                 <p class="Lorem">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu
                   velit tempus erat egestas efficitur. In hac habitasse platea
@@ -104,33 +107,30 @@
                   dui molestie, molestie lectus eu, semper lectus.
                 </p>
               </div>
-
-              <div class="block-message__text wd-margin">
+              <div class="block-message__text ">
                 <h3 class="massege__title">Next on the pipeline</h3>
                 <p class="Lorem">
-                  Duis eu velit tempus erat egestas efficitur. In hac habitasse
+                  Duis eu velit tempus erat egestas efficitur. In hac
                   platea dictumst. Fusce a nunc eget ligula suscipit finibus. Aenean
                   pharetra quis lacus at viverra. Class aptent taciti sociosqu ad
                   litora torquent per conubia nostra, per inceptos himenaeos.
                 </p>
-                <p class="Lorem">
-                  Morbi efficitur auctor metus, id mollis lorem pellentesque id.
-                  Nullam posuere maximus dui et fringilla.
-                </p>
               </div>
-              <div class="massege__container-picture">
+            </div>
+              <figure class="massege__container-picture">
                 <img
                   src="./img/image blog/chypakabra.jpg"
                   alt=""
                   srcset=""
                   class="massege__picture"
                 />
-              </div>
-              <p class="picture__under-text wd-margin">
-                Image caption centered this way and I’ll make this a bit longer to
-                indicate the amount of line-height.
-              </p>
-              <div class="block-message__text wd-margin">
+                <figcaption class="picture__under-text">
+                  Image caption centered this way and I’ll make this a bit longer to
+                  indicate the amount of line-height.
+                </figcaption>
+              </figure>
+            <div class="article__text-container">
+              <div class="block-message__text ">
                 <p class="Lorem">
                   Duis eu velit tempus erat egestas efficitur. In hac habitasse
                   platea dictumst. Fusce a nunc eget ligula suscipit finibus. Aenean
@@ -143,7 +143,7 @@
                   suscipit finibus. Aenean pharetra quis lacus at viverra.
                 </p>
               </div>
-              <div class="massege__list wd-margin">
+              <div class="massege__list ">
                 <h4 class="list__title">A list looks like this:</h4>
                 <ul class="list">
                   <li class="massege__list-item">First item in the list</li>
@@ -154,11 +154,12 @@
                   <li class="massege__list-item">Third item in the list</li>
                 </ul>
               </div>
-              <p class="Lorem wd-margin">
+              <p class="Lorem ">
                 Morbi efficitur auctor metus, id mollis lorem pellentesque id.
                 Nullam posuere maximus dui et fringilla.
               </p>
-              <div class="massege__end-post wd-margin">
+            </div>
+              <div class="massege__end-post ">
                 <p class="massege-end">
                   Thanks for reading,<br />
                   Mika
@@ -182,8 +183,8 @@
                   </a>
                 </button>
                 <p class="massege-tags">
-                  Tags: <span class="tags__underline-word">product design</span>,
-                  <span class="tags__underline-word">culture</span>
+                  Tags: <a href="#"><span class="tags__underline-word">product design</span></a>,
+                  <a href="#"><span class="tags__underline-word">culture</span></a>
                 </p>
                 <div class="information-person">
                   <div class="avatar__container">
@@ -195,18 +196,21 @@
                     />
                   </div>
                   <p class="person__descr">
-                    <span class="user-full-name">Mika Matikainen</span> is a Design
+                    <span class="message__user-full-name">Mika Matikainen</span> is a Design
                     Founder & Advisor, Berlin School of Creative Leadership
                     Executive MBA participant, Zippie advisor, Wolt co-founder, and
                     Nordic Rose stakeholder.
                   </p>
                 </div> 
+                
+              </div>
+            </article>
+          </section>
+          <section class="main__articles ">
                 <div class="icon-Eyes">
                   <img src="./img/image blog/Eyes.svg" alt="Eyes" srcset="">
                 </div>
-              </div>
-          </section>
-          <section class="main__articles articles-conteiner">
+            <div class="articles-conteiner">
             <h3 class="articles__title">What to read next</h3>
             <div class="articles__grid-container">
               <article class="article">
@@ -388,21 +392,24 @@
                 </div>
               </article>
             </div>
+          </div>
           </section>
-          <section class="main__newsletter wd-margin">
-             <div class="newsletter__container">
-                <div class="newsletter__text">
-                  <h3 class="newsletter__title">Sign up for the newsletter</h3>
-                  <p class="newsletter__subtitle">
-                    If you want relevant updates occasionally, 
-                    sign up for the private newsletter. Your email is never shared.
-                  </p>
-                </div>
-                <div class="email-signUp">
-                  <input type="email"  name="email" placeholder="Enter your email..." class="send-email"/>
-                  <button class="btn-send">Sign Up</button>
-                </div>
-             </div>
+          <section class="main__newsletter ">
+            <div class="newsletter__container">
+              <div class="newsletter__content">
+                  <div class="newsletter__text">
+                    <h3 class="newsletter__title">Sign up for the newsletter</h3>
+                    <p class="newsletter__subtitle">
+                      If you want relevant updates occasionally, 
+                      sign up for the private newsletter. Your email is never shared.
+                    </p>
+                  </div>
+                  <div class="email-signUp">
+                    <input type="email"  name="email" placeholder="Enter your email..." class="send-email"/>
+                    <button class="btn-send">Sign Up</button>
+                  </div>
+              </div>
+            </div>
           </section>
       </main>
       <footer class="footer bg-black">
@@ -463,9 +470,9 @@
               <li class="list-item"><a class="list-link" href="#">RSS</a></li>
             </ul>
           </div>
-          <p class="footer__company-info">
-            © 2012–2020 Nordic Rose Co.<br />All rights reserved.
-          </p>
+          <span class="footer__company-info">
+            © 2012–2020 Nordic Rose Co.All rights reserved.
+          </span>
         </div>
       </footer>
     </div>

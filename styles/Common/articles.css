@@ -1,7 +1,5 @@
 .articles-conteiner {
   max-width: 40rem;
-  min-height: auto;
-  margin: 0 auto;
   margin-top: 4rem;
   border-top: 1px solid black;
 }
@@ -20,7 +18,7 @@
 }
 .article__container-picture {
   max-width: 19rem;
-  min-height: 11rem;
+  max-height: 11rem;
 }
 .article__picture {
   width: 100%;
@@ -29,18 +27,15 @@
 .articles__title {
   font-size: 44px;
   line-height: 53px;
-  margin-top: 64px;
-  margin-bottom: 39px;
+  margin: 65px 0px 40px;
   text-align: center;
 }
 .article__text {
   padding: 20px;
-  width: 100%;
 }
 .article__title {
   font-family: "SF Pro Display";
   font-size: 22px;
   line-height: 120%;
-
   text-align: center;
 }

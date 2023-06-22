@@ -7,35 +7,38 @@
 @import url("./Common/footer.css");
 
 
-.blog-info__container {
-  width: 100%;
-  max-width: 100%;
-}
 .container-picture {
-  min-height: auto;
-  margin-top: 52px;
-  margin-bottom: 44px;
+  max-height: 533px;
+  margin: 50px 0px 0px;
 }
 
 .blog-info__text {
   max-width: 53.375rem;
-  margin: 0 auto;
-  width: 100%;
 }
 .blog-info__title {
-  margin-top: 52px;
-  margin-bottom: 32px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .blog-info__subtitle {
   max-width: 626px;
 }
+.main__articles{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 100%;
+  border-top:1px solid black;
+}
 .articles-conteiner {
-  max-width: 57.5rem !important;
-  min-height: auto;
-  margin: 0 auto;
-  margin-top: 2.5rem;
+  max-width: 57.5rem;
+  width: 100%;
+  margin-top: 45px;
   border-top: 0;
+}
+.articles__title{
+  margin: 0px 0px 30px;
 }
 .articles__grid-container {
   display: grid;
@@ -43,7 +46,7 @@
   grid-gap: 10px;
 }
 
-@media (max-width:500px){
+@media (max-width:480px){
   .articles__title{
     font-size: 33px;
   }
